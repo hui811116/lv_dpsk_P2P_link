@@ -29,6 +29,7 @@ The three major features of the prototype are:
 * Functional physical layer.
 
 First, this prototype is able to address standard synchronization problems such as carrier synchronization and time recovery sampling problems. We address the former problem with standard costas loop and the latter with polyphase time recovery loop. With the two modules, two USRPs can communicate without hardware such as MIMO cable, GPS antenna or external clocks. Furthermore, we have tested our prototype in USRP burst transmission mode. The two example programs in the source code support different modes of USRPs and users can develop applications from either program based on their requirements.
+
 Secondly, the prototype has already functional physical layer system that takes bytes in and out from transmitter to receiver. One can easily use LabVIEW built-in flatten modules and convert message to bytes and use this prototype to send packets to the air. The reverse process is similar. Currently, our prototype supports two transmission rate based on either DBPSK or DQPSK is chosen as the modulation scheme.
 
 
