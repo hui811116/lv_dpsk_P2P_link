@@ -1,6 +1,7 @@
 # lv_dpsk_P2P_link
 
-A DPSK uncoded point-to-point packet-based transceiver
+A DPSK uncoded point-to-point packet-based transceiver.
+
 Teng-Hui Huang. GICE, National Taiwan University
 
 ## Quick start
