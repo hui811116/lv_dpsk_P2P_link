@@ -20,7 +20,8 @@ Teng-Hui Huang. GICE, National Taiwan University
 2. Two commercial PCs/ Laptops
 3. NI Modulation toolkits
 4. NI USRP toolkits
-5. LabView 2014
+5. NI LabVIEW MathScript RT Module
+6. LabView 2014 (or higher)
 
 ## System Details
 The three major features of the prototype are: 
