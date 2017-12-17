@@ -10,6 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="dsss" Type="Folder">
+			<Item Name="phy_dsss_chip_sync.vi" Type="VI" URL="../phy_dsss_chip_sync.vi"/>
+			<Item Name="phy_dsss_chips.vi" Type="VI" URL="../phy_dsss_chips.vi"/>
+		</Item>
 		<Item Name="phy" Type="Folder">
 			<Item Name="phy_dpsk_demod.vi" Type="VI" URL="../phy_dpsk_demod.vi"/>
 			<Item Name="phy_dpsk_mod.vi" Type="VI" URL="../phy_dpsk_mod.vi"/>
@@ -23,9 +27,11 @@
 			<Item Name="util_create_diff_taps.vi" Type="VI" URL="../util_create_diff_taps.vi"/>
 		</Item>
 		<Item Name="system" Type="Folder">
+			<Item Name="sys_append_symbols.vi" Type="VI" URL="../sys_append_symbols.vi"/>
 			<Item Name="var_rx_stop.vi" Type="VI" URL="../var_rx_stop.vi"/>
 			<Item Name="var_stop.vi" Type="VI" URL="../var_stop.vi"/>
 		</Item>
+		<Item Name="simulation.vi" Type="VI" URL="../simulation.vi"/>
 		<Item Name="usrp_rx.vi" Type="VI" URL="../usrp_rx.vi"/>
 		<Item Name="usrp_stream_rx.vi" Type="VI" URL="../usrp_stream_rx.vi"/>
 		<Item Name="usrp_stream_tx.vi" Type="VI" URL="../usrp_stream_tx.vi"/>
@@ -56,6 +62,7 @@
 				<Item Name="niUSRP Write Tx Data (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Write Tx Data (poly).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
@@ -66,7 +73,7 @@
 				<Item Name="nilvdmt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/Modulation/Digital/Support/nilvdmt.dll"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="niusrp.dll" Type="Document" URL="niusrp.dll">
+			<Item Name="niusrp2.dll" Type="Document" URL="niusrp2.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
