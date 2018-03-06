@@ -4,6 +4,9 @@ A DPSK uncoded point-to-point packet-based transceiver.
 
 Teng-Hui Huang. GICE, National Taiwan University
 
+## Demo
+[![lv_dpsk_P2P_link_demo](http://img.youtube.com/vi/PhxGqNXMOzY/0.jpg)](http://www.youtube.com/watch?v=PhxGqNXMOzY)
+
 ## Quick start
 1. Packet based transmission
      1. Connect USRPs to PCs/laptops
